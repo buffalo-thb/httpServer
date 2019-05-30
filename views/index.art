@@ -1,0 +1,10 @@
+{{ extend './template.art' }}
+{{block 'css'}}
+// <link href="http://test.58.com/demo.css" rel="stylesheet">
+{{/block}}
+{{block 'jsscript'}}
+  <script type="text/javascript" src=""></script>
+  <script>
+    alert(666)
+  </script>
+{{/block}}
